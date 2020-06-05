@@ -19,8 +19,8 @@ public class InsertionSort {
         }
 
 
-        for (int i = 0; i < intArray.length; i++) {
-            System.out.println(intArray[i]);
+        for (int value : intArray) {
+            System.out.println(value);
         }
     }
 }
